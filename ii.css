@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#nav_top{
+    height: 60px;
+    background-color: aquamarine;
+    border: solid;
+    margin-bottom: 5px;
+    text-align: center;
+}
+#nav{
+    height: 80px;
+    background-color: aqua;
+    border: solid;
+
+}

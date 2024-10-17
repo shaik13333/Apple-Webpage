@@ -1,0 +1,382 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;;
+}
+#nav ul{
+    height: 45px;
+    display: flex;
+    background-color:#454545;
+    justify-content: center;
+    list-style-type: none;
+}
+#nav{
+    position: relative;
+}
+body{
+    overflow-x: hidden;
+}
+#nav ul li{
+   margin-right: 42px;
+   font-size: 12px;
+   color: rgba(255, 255, 255, 0.721);
+   letter-spacing: 0.3px;
+  margin-top: 16px;
+}
+.first_ul_img{
+    /* margin-bottom: 13px; */
+    position: absolute;
+    bottom: 0px;
+    
+}
+#nav_bottom{
+    height: 45px;
+    background-color: #282829;
+    position: relative;
+}
+#nav_bottom p{
+    text-align: center;
+    color: white;
+    margin-top: 13px;
+    position: absolute;
+    left: 560px;
+    /* margin: auto; */
+    font-size: 13px;
+}
+#first_bgimg{
+    background-image: url("hero_paralympics__f0u9lu6obdiu_large_2x.jpg");
+    height: 75vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+a{
+    color: rgba(0, 89, 255, 0.882);
+    font-size: 16px;
+}
+#shop{
+    margin-top: 13px;
+    background-color:#f5f5f7;
+    text-align: center;
+    height: 670px;
+}
+#shop button{
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 25px;
+    border: 1px solid rgb(0, 89, 255); 
+    outline: none;
+    color:rgb(0, 89, 255) ;
+    margin-left: 35px;
+    margin-top: 10px;
+    cursor: pointer;
+    /* border: 1px  rgba(0, 89, 255, 0.882); */
+}
+#bgimg_2{
+    background-image: url("bgimg_2.jpg");
+    height: 74vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    
+/* width: 100%; */
+/* background-size: cover; */
+    /* width: 70vh; */
+    /* background-repeat: no-repeat; */
+}
+ #bgimg_3{
+    width:49.15%;
+    height: 590px;
+    background-size: 1262px 590px;
+    background-repeat: no-repeat;
+    /* border: 2px solid black; */
+    background-image:url(promo_iphone15_announce__fmxxi8r9fkuy_large.jpg) ;
+    margin-top: 3px;
+    margin-left: 11px;
+    margin-right: 5.5px;
+    /* margin-bottom: 11px; */
+    display:inline-block ;
+}
+#bgimg_4{
+    width: 49.15%;
+    height: 590px;
+    background-size: 1262px 590px;
+    background-repeat: no-repeat;
+    /* border: 2px solid black; */
+    background-image:url(bgimg_4.jpg) ;
+    background-position: center;
+    margin-right: 9px;
+    margin-top: 3px;
+    /* margin-bottom: 11px; */
+    display:inline-block ;
+}
+#bgimg_5{
+    width: 49.15%;
+    height: 590px;
+    background-size: 1262px 590px;
+    background-repeat: no-repeat;
+    /* border: 2px solid black; */
+    background-image:url(bgimg_5.jpg) ;
+    margin-right: 5.5px;
+    margin-left: 11px;
+    background-position: center;
+    margin-top: 8px;
+    display:inline-block ;
+    /* margin-bottom: 11px; */
+}
+#bgimg_6{
+    width: 49.15%;
+    height: 590px;
+    background-size: 1262px 590px;
+    background-repeat: no-repeat;
+    /* border: 2px solid black; */
+    background-image:url(bgimg_6.jpg) ;
+    background-position: center;
+    margin-right: 9px;
+    margin-top:8px;
+    /* margin-btom: 11px; */
+    display:inline-block ;
+}
+#bgimg_7{
+    width: 49.15%;
+    height: 590px;
+    background-size: 1262px 590px;
+    background-repeat: no-repeat;
+    /* border: 2px solid black; */
+    background-image:url(bgimg_7.jpg) ;
+    background-position: center;
+    margin-right: 5.5px;
+    margin-left: 11px;
+    margin-top: 8px;
+    display:inline-block;
+    margin-bottom: 9px;
+}
+#bgimg_8{
+    width: 49.15%;
+    height: 590px;
+    background-size: 1262px 590px;
+    background-repeat: no-repeat;
+    /* border: 2px solid black; */
+    background-image:url(bgimg_8.jpg) ;
+    background-position: center;
+    margin-right: 9px;
+    margin-top: 8px;
+    margin-bottom: 9px;
+    display:inline-block ;
+}
+#container{
+    display: flex; 
+    justify-content: space-between;
+    /* flex-wrap: wrap */
+}
+#slider_effect{
+
+    background-image: url(slider_img2.jpg);
+    height: 73vh;
+    width: 80%;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* border: solid; */
+    background-size: 1530px 1000px;
+}
+
+#sub2:focus~#slider_effect{
+    background-image: url(slider_img1.jpg);
+    height: 73vh;
+    width: 80%;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* border: solid; */
+    background-size: 1530px 1000px;
+}
+#sub3:focus~#slider_effect{
+    background-image: url(slider_img3.jpg);
+    height: 73vh;
+    width: 80%;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* border: solid; */
+    background-size: 1530px 1000px;
+}
+#sub1,#sub2,#sub3{
+    position: relative;
+    left: 910px;
+    height: 17px;
+    width: 17px;
+    border: none;
+    border-radius: 50%;
+    top: 750px;
+    
+    background-color: rgb(197, 192, 192);
+    color: rgb(197, 192, 192);
+    margin-right: 20px;
+}
+#sub3:focus{
+    color: black;
+    background-color: black;
+}
+#sub2:focus{
+    color: black;
+    background-color: black;
+}
+#sub1:focus{
+    color: black;
+    background-color: black;
+}
+#but_p button{
+    padding: 14px 35px;
+    display: inline;
+    border-radius: 27px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+#but_p p{
+    display: inline-block;
+    /* display: inline-block; */
+    color: white;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    margin-left: 10px;
+}
+#but_p{
+   
+    position: relative;
+    left: 310px;
+    bottom: 139px;
+   
+}
+#content h1{
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em; margin-top: 53px;
+}
+#content h3{
+    font-size: 21px;
+        line-height: 1.19048;
+        font-weight: 400;
+        letter-spacing: .011em; 
+        margin-top: 10px;
+}
+#content #b1{
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+     padding: 8px 20px;
+    background-color: #0071e3;
+    color: white;
+    margin-top: 14px;
+    border: none;
+    border-radius: 29px;
+}
+#content #b2{
+    margin-left: 8px;
+    padding: 9px 15px;
+    border-radius: 17px;
+    color:#0071e3;
+    border: none;
+    margin-top: 4px;
+    border: 1px solid #0071e3;
+}
+#bgimg_2 #b1{
+    font-size: 18px;
+    line-height: 1.42859;
+    font-weight: 400;
+    padding: 12px 26px;
+    background-color: #0071e3;
+    color: white;
+    margin-top: 14px;
+    border: none;
+    border-radius: 29px;
+    position: absolute;
+    top: 168px;
+    right: 940px;
+}
+#bgimg_2 #b2{
+    margin-left: 8px;
+    padding: 12px 26px;
+    border-radius: 27px;
+    color: #0071e3;
+    border: none;
+    font-size: 18px;
+    background-color: black;
+    margin-top: 4px;
+    position: absolute;
+    border: 1px solid #0071e3;
+    top: 179px;
+    right: 837px;
+}
+#first_bgimg #b1{
+    font-size: 18px;
+    line-height: 1.42859;
+    font-weight: 400;
+    padding: 12px 26px;
+    background-color: #0071e3;
+    color: white;
+    margin-top: 14px;
+    border: none;
+    border-radius: 29px;
+    position: absolute;
+    top: 168px;
+    right: 940px;
+}
+#first_bgimg #b2{
+    margin-left: 8px;
+    padding: 12px 26px;
+    border-radius: 27px;
+    color: #0071e3;
+    border: none;
+    font-size: 18px;
+    margin-top: 4px;
+    position: absolute;
+    border: 1px solid #0071e3;
+    top: 179px;
+    right: 837px;
+}
+#first_bgimg h1{
+    margin-top: 50px;
+    position: absolute;
+    bottom: 579px;
+    left: 814px;
+    color: white;
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    top: 86px;
+}
+#first_bgimg h3{
+    margin-top: 50px;
+    position: absolute;
+    font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 400;
+    letter-spacing: .007em;
+    color: white;
+    left: 743px;
+    top: 152px;
+}
+#first_bgimg #b1{
+    font-size: 18px;
+    line-height: 1.42859;
+    font-weight: 400;
+    padding: 10px 26px;
+    background-color:white;
+    color: black;
+    margin-top: 14px;
+    border: none;
+    border-radius: 29px;
+    position: absolute;
+    top: 266px;
+    right: 874px;
+} 
+#last_section{
+    height: 794.09px;
+    background-color: #f5f5f7
+}
